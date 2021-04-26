@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+}
+/* .container-home{
+  height:100%;
+  width:100%;
+} */
+
+/*  LOGIN & SIGNUP */
+#icon-container{
+  width:100%;
+  text-align:center;
+  display:inline-block;
+  padding:10px 0;
+}
+
+#google{
+  background:  rgb(228, 8, 8);
+}
+#google:hover{
+ background:0.05rem solid rgb(228, 8, 8);
+}
+#facebook{
+  background: #0000EE;
+}
+#facebook:hover{
+background:0.05rem solid #0000EE;
+}
+#twitter{
+  background: rgb(44, 144, 238);
+}
+#twitter:hover{
+  background:0.05rem solid rgb(44, 144, 238);
+}
+
+.form-container{
+  width:40%;
+  padding:2rem 3rem;
+  background:white;
+  margin:0 auto;
+  border-radius:5px;
+  box-shadow:0px 14px 28px rgba(0,0,0,0.25), 0px 10px 10px rgba(0,0,0,0.22);
+}
+p.login-alt{
+  position:relative;
+  text-align:center;
+  margin-top:15px;
+}
+p.login-alt::before, p.login-alt::after{
+  width:45%;
+  height:2px;
+  content:'';
+  display:block;
+  position:absolute;
+  top:50%;
+  background:#00223a;
+}
+p.login-alt::before{
+  left:0;
+}
+p.login-alt::after{
+  right:0
+}
+
+.tablist{
+  display:flex;
+  justify-content: space-around;
+}
+
+.tablist .tab{
+color:#999;
+padding:10px 40px;
+cursor:pointer;
+}
+.tablist .tab:hover{
+  color:#000;
+}
+@media (min-width:480px) and (max-width:768px) {
+  .form-container{
+width:70%;
+padding:1rem 1.5rem;
+  }
+}
+@media (max-width:479px){
+  .form-container{
+    width:100%;
+    padding:0.5rem 1rem;
+  }
+}
+
+/* COOPERATIVE lINK */
+.list-container{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+.link{
+height:400px;
+width:300px;
+cursor: pointer;;
+padding:1rem 0.5rem;
+color:red;
+}

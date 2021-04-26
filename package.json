@@ -1,0 +1,55 @@
+{
+  "name": "clan",
+  "version": "0.0.1",
+  "description": "Growing financial muscles leveraging on community",
+  "keywords": [
+    "finacial",
+    "inclusion"
+  ],
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "test": "__tests__"
+  },
+  "scripts": {
+    "test:watch": "jest --watch *.js",
+    "test:cover": "jest --coverage",
+    "lint": "eslint --fix \"src/**/*.js\" --quiet",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+    
+  },
+  "author": {
+    "name": "Samuel",
+    "email": "psalmueloye@gmail.com"
+  },
+  
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.10.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "react-tabs": "^3.1.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "last 1 Chrome versions"
+  ]
+}
