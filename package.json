@@ -24,7 +24,7 @@
     "name": "Samuel",
     "email": "psalmueloye@gmail.com"
   },
-  
+  "homepage": ".",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
